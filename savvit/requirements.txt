@@ -1,0 +1,6 @@
+flask
+twisted
+ConfigParser
+yattag
+praw
+jinja2

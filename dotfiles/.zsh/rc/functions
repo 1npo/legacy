@@ -1,0 +1,10 @@
+_cur_date_for_notes () {
+	date +%Y%b%d-%k%M
+}
+
+_git_push () {
+	git add $1
+	git commit -m '.'
+	git push
+}
+

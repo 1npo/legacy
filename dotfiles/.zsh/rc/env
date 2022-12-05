@@ -1,0 +1,16 @@
+export HISTSIZE=1000 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history
+export SAVEHIST=1000
+export HISTFILE=~/.zsh/history
+export EDITOR="/bin/nvim"
+export TERM="screen-256color"
+export PATH="/bin:/usr/bin:/usr/local/bin:/usr/games:$HOME/rc:$HOME/.local/bin:/usr/local/texlive/2020/bin/x86_64-linux"
+export GOPATH="/home/nick/go"
+export VIMRC="~/.config/nvim/init.vim"
+export TMUXRC="~/.tmux.conf"
+export WDIR="/home/nick/w/cmg/work"
+export MDIR="/home/nick/w/cmg"
+export ZDIR="/home/nick/.zsh/rc"
+export GDIR="/srv/gar"
+#export DISPLAY="`tmux show-env | sed -n 's/^DISPLAY=//p'`"
+export ANDROID_HOME="/home/nick/w/android-sdk"
+
